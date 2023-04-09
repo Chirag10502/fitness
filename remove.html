@@ -83,7 +83,7 @@
       console.log(data)
   
       var sendData = async ()=>{
-        var res = await fetch("http://localhost:5000/remove", {
+        var res = await fetch("/remove", {
           method:"POST",
           mode : "cors",
           headers:{
